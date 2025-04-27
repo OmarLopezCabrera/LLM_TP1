@@ -14,7 +14,6 @@ with st.sidebar:
     st.success("✅ Pinecone API Key OK" if pinecone_api_key else "❌ Pinecone API Key NO encontrada")
     st.success("✅ Groq API Key OK" if groq_api_key else "❌ Groq API Key NO encontrada")
 
-st.text("🔍 Pinecone key usada: " + (pinecone_api_key or "NO DETECTADA")[:10])
 
 uploaded_file = st.file_uploader("📄 Sube tu CV en PDF", type="pdf")
 if uploaded_file:
