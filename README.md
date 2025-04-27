@@ -1,4 +1,4 @@
-# 🧠 Chatbot Multi-CV (TP2) - HuggingFace + Pinecone + Groq
+# 🧠 Chatbot Multi-CV (TP1) - HuggingFace + Pinecone + Groq
 
 Este proyecto implementa un chatbot que responde preguntas sobre un CV cargado en formato PDF, utilizando las tecnologías más recientes de:
 
@@ -25,7 +25,7 @@ Este proyecto implementa un chatbot que responde preguntas sobre un CV cargado e
 Este proyecto demuestra un sistema de **Retrieval-Augmented Generation (RAG)** adaptado a la consulta de contenidos de un CV personal.  
 Utiliza la combinación de:
 
-- **Embeddings** de `sentence-transformers/all-MiniLM-L6-v2`
+- **Embeddings** de HuggingFace `sentence-transformers/all-MiniLM-L6-v2`
 - **Vector storage** en Pinecone
 - **Generación natural** con Llama3 via Groq API
 - **Orquestación** con LangChain y Streamlit para experiencia interactiva.
@@ -41,7 +41,7 @@ El modelo se alimenta únicamente del contexto recuperado desde el índice vecto
 
 Diagrama del flujo:
 
-![Arquitectura LLM](assets/llm_diagram-Page-2.jpg)
+![Arquitectura LLM](/llm_diagram.jpg)
 
 ---
 
