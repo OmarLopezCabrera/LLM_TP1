@@ -102,9 +102,6 @@ Desde el navegador podrás:
 
 - Usamos `Streamlit` ejecutado localmente en Anaconda o un entorno virtual.
 
-**(Opcional)** Producción:
-
-- Se puede dockerizar o desplegar en AWS Lightsail, EC2 o Elastic Beanstalk si fuera necesario, adaptando el servidor de Streamlit.
 
 ---
 
