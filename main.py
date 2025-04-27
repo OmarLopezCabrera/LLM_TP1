@@ -4,7 +4,7 @@ from chat_engine import ChatBot
 from ingest import ingest_pdf_to_pinecone
 import tempfile
 
-st.title("🧠 Chat con tu CV (HuggingFace + testhug index)")
+st.title("🧠 Chat con tu CV ")
 
 pinecone_api_key = os.getenv("PINECONE_API_KEY")
 groq_api_key = os.getenv("GROQ_API_KEY")
